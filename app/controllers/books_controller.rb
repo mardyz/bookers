@@ -3,6 +3,7 @@ class BooksController < ApplicationController
   end
 
   def index
+    @books = Books
   end
 
   def show
