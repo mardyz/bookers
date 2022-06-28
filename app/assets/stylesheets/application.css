@@ -19,7 +19,7 @@
   box-sizing: border-box;
 }
 
-body {
+body, table {
   background-color: #fff;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
@@ -32,4 +32,13 @@ p {
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
+}
+
+table {
+  display: table;
+}
+
+th {
+  display: table-cell;
+  padding-bottom: 15px;
 }
