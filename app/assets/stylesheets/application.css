@@ -42,3 +42,14 @@ th {
   display: table-cell;
   padding-bottom: 15px;
 }
+
+.text-success {
+  color: green;
+}
+
+.error-message {
+  width: 450px;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
